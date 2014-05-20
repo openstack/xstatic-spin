@@ -28,7 +28,7 @@ MAINTAINER = 'Radomir Dopieralski'
 MAINTAINER_EMAIL = 'openstack@sheep.art.pl'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'http://code.shutterstock.com/spin/'
+HOMEPAGE = 'http://fgnass.github.io/spin.js/'
 
 # this refers to all files:
 LICENSE = '(same as %s)' % DISPLAY_NAME
@@ -36,7 +36,7 @@ LICENSE = '(same as %s)' % DISPLAY_NAME
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
 # linux package maintainers just can point to their file locations like this:
-#BASE_DIR = '/usr/share/javascript/rickshaw'
+#BASE_DIR = '/usr/share/javascript/spin'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)
