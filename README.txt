@@ -1,5 +1,5 @@
 XStatic-Spin
---------------
+------------
 
 Spin JavaScript library packaged for setuptools (easy_install) / pip.
 
